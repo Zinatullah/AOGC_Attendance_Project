@@ -31,6 +31,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "check": "react-scripts build",
     "build": "tailwindcss -i ./src/index.css -o ./src/css/main.css",
     "watch": "tailwindcss -i ./src/index.css -o ./src/css/main.css --watch",
     "test": "react-scripts test",
